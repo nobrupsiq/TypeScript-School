@@ -622,15 +622,15 @@
 //   autor: "Bruno",
 // };
 
-interface ObjetoLiteral {
-  [key: string]: unknown;
-}
+// interface ObjetoLiteral {
+//   [key: string]: unknown;
+// }
 
-type ObjetoLiteral2 = Record<string, unknown>;
+// type ObjetoLiteral2 = Record<string, unknown>;
 
-function mostrarTitulo(obj: ObjetoLiteral2) {
-  if ("titulo" in obj) {
-    console.log(obj.titulo);
-  }
-}
-mostrarTitulo("string");
+// function mostrarTitulo(obj: ObjetoLiteral2) {
+//   if ("titulo" in obj) {
+//     console.log(obj.titulo);
+//   }
+// }
+// mostrarTitulo("string");
